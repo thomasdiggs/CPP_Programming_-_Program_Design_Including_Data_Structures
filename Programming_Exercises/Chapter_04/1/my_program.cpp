@@ -1,4 +1,3 @@
-
 /* C++ Programming: Program Design Including Data Structures
  * Chapter 4, Programming Exercise 1
  *
@@ -13,8 +12,24 @@
 
 int main()
 {
+	int input;
 
+	std::cout << "Input a number: ";
+	std::cin >> input;
+	std::cout << std::endl;
+	
+	if (input > 0)
+	{
+		std::cout << "Your number is positive." << std::endl;
+	}
+	else if (input < 0)
+	{
+		std::cout << "Your number is negative." << std::endl;
+	}
+	else
+	{
+		std::cout << "Your number is zero." << std::endl;
+	}
 
     return 0;
 }
-
